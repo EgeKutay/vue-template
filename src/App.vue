@@ -1,10 +1,13 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
+import DefaultLayout from "./layouts/DefaultLayoutWithVerticalNav.vue"
 // add default layout here.
+
 </script>
 
 <template>
+
   <header>
     <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
 
@@ -17,7 +20,8 @@ import HelloWorld from './components/HelloWorld.vue'
       </nav>
     </div>
   </header>
-
+hello
+<DefaultLayout />
   <RouterView />
 </template>
 
