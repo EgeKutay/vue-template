@@ -1,6 +1,6 @@
 <script>
-import Horizontal from "@layouts/components/Horizontal"
-import NavVertical from "@layouts/components/NavVertical"
+import Horizontal from "@layouts/components/Horizontal.vue"
+import NavVertical from "@layouts/components/NavVertical.vue"
 
 //add core layouts here for vertical.
 
